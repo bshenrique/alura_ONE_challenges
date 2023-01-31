@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador</title>
+  </head>
+  <body>
+
+    <header class="cabecalho">
+      <img id="logo" src="./alura_logo.png" />
+    </header>
+
+    <main>
+      <textarea id="texto-input" placeholder="Digite seu texto aqui!" required></textarea>
+      <div id="caixa-output">
+        <textarea id="texto-output" placeholder="O resultado aparecerá aqui." disabled></textarea>
+        <input id="copiar" class="botao" type="button" value="Copiar" />
+      </div>
+      <input id="criptografar" class="botao" type="button" value="Criptografar"/>
+      <input id="descriptografar" class="botao" type="button" value="Descriptografar"/>
+    </main>
+
+    <footer>
+      <p>Developed by: Henrique Santos</p>
+      <p>Programa de Formação ONE/Alura - T4 - 2022</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
